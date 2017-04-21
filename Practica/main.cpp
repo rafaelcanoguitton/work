@@ -7,19 +7,35 @@ void ejercicio3();
 void ejercicio4();
 void ejercicio5();
 void ejercicio6();
-int ejercicio14(const int array,int x,const int y);
+void ejercicio7();
+void ejercicio8(int *x,int *y);
+void ejercicio9(int k[], int lenght);
+void ejercicio12(int arr[],int t);
+int ejercicio14(int array[],int x,const int y);
+void ejercicio15();
 int main()
 {
-    int c[4]={1,2,3,4};
-    int x;
+    int c[5]={1,2,4,3,0};
+    int x,g,h;
     /*ejercicio1();
     ejercicio2();
     ejercicio3();
     ejercicio4();
     ejercicio5();
     ejercicio6();*/
-    x=ejercicio14(c,0,4);
+    ejercicio7();
+    cout<<"Ingrese su primer numero para el intercambio (con punteros): "<<endl;
+    cin>>g;
+    cout<<"Ingrese su segundo numero para el intercambio : "<<endl;
+    cin>>h;
+    int *y=&g,*u=&h;
+    ejercicio8(y,u);
+    ejercicio9(c,5);
+    for(int i=0;i<5;i++)
+        cout<<"ctmr"<<c[i]<<endl;
+    x=ejercicio14(c,0,5);
     cout<<x<<endl;
+    ejercicio15();
     return 0;
 }
 void ejercicio1()
@@ -117,10 +133,67 @@ void ejercicio6()
         else
             cout<<"Su division es: "<<y/z<<endl;
 }
-int ejercicio14(int array,int x,int y)
+void ejercicio7()
+{
+    int x,y;
+    cout<<"Ingrese su primer numero para el intercambio: "<<endl;
+    cin>>x;
+    cout<<"Ingrese su segundo numero para el intercambio: "<<endl;
+    cin>>y;
+    int temp=x;
+    x=y;
+    y=temp;
+    cout<<"El intercambio se realizo: "<<x<<" "<<y<<endl;
+}
+void ejercicio8(int *x,int *y)
+{
+    int temp=*x;
+    *x=*y;
+    *y=temp;
+    cout<<"El intercambio se realizo: "<<*x<<" "<<*y<<endl;
+}
+void ejercicio9(int A[],int length)
+{
+	int temp, temp2;
+	for (int i = 0; i < length; i++){
+		temp= i;
+		while (temp>0&&A[temp]<A[temp-1])
+		{
+			  temp2=A[temp];
+			  A[temp] = A[temp-1];
+			  A[temp-1] = temp2;
+			  temp--;
+        }
+    }
+}
+void ejercicio12(int arr[],int t)
+{
+    int temp;
+    for(int i=0; i<(t/2);i++)
+    {
+        temp = arr[i];
+        arr[i]=arr[t-i-1];
+        arr[t-i-1]=temp;
+    }
+}
+int ejercicio14(int array[],int x,int y)
 {
     if (x==y)
         return 0;
     else
         return array[x]+ejercicio14(array,x+1,y);
+}
+void ejercicio15()
+{
+    cout<<"Ingrese su palabra"<<endl;
+    string x,temp;
+    cin>>x;
+    for(int i =x.size()-1;i>=0;i--)
+        temp=temp+x[i];
+    if(x==temp)
+    {
+        cout<<"Es palindromo"<<endl;
+    }
+    else
+        cout<<"No es palindromo"<<endl;
 }
