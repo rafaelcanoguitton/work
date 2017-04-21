@@ -17,12 +17,12 @@ int main()
 {
     int c[5]={1,2,4,3,0};
     int x,g,h;
-    /*ejercicio1();
+    ejercicio1();
     ejercicio2();
     ejercicio3();
     ejercicio4();
     ejercicio5();
-    ejercicio6();*/
+    ejercicio6();
     ejercicio7();
     cout<<"Ingrese su primer numero para el intercambio (con punteros): "<<endl;
     cin>>g;
@@ -31,10 +31,15 @@ int main()
     int *y=&g,*u=&h;
     ejercicio8(y,u);
     ejercicio9(c,5);
+    cout<<"Array ordenado"<<endl;
     for(int i=0;i<5;i++)
-        cout<<"ctmr"<<c[i]<<endl;
+        cout<<c[i]<<endl;
+    ejercicio12(c,5);
+    cout<<"Array invertido"<<endl;
+    for(int i=0;i<5;i++)
+        cout<<c[i]<<endl;
     x=ejercicio14(c,0,5);
-    cout<<x<<endl;
+    cout<<"La suma recursiva de los elementos de su array es: "<<x<<endl;
     ejercicio15();
     return 0;
 }
