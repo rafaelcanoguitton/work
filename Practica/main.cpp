@@ -4,7 +4,7 @@ using namespace std;
 void ejercicio1();
 void ejercicio2();
 void ejercicio3();
-void ejercicio4();
+void ejercicio4(long long int x,long long int y);
 void ejercicio5();
 void ejercicio6();
 void ejercicio7();
@@ -16,11 +16,15 @@ void ejercicio15();
 int main()
 {
     int c[5]={1,2,4,3,0};
-    int x,g,h;
+    int x,g,h,p,po;
     ejercicio1();
     ejercicio2();
     ejercicio3();
-    ejercicio4();
+    cout<<"Ingrese una base"<<endl;
+    cin>>p;
+    cout<<"Ingrese una potencia"<<endl;
+    cin>>po;
+    ejercicio4(p,po);
     ejercicio5();
     ejercicio6();
     ejercicio7();
@@ -71,13 +75,9 @@ void ejercicio3()
         cout<<"Su numero es impar"<<endl;
     }
 }
-void ejercicio4()
+void ejercicio4(long long int x,long long int y)
 {
-    long long int x,y,z;
-    cout<<"Ingrese una base"<<endl;
-    cin>>x;
-    cout<<"Ingrese una potencia"<<endl;
-    cin>>y;
+    long long int z;
     z=x;
     for(int i=1;i<y;i++)
     {
