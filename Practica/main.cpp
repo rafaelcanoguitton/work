@@ -183,6 +183,16 @@ void ejercicio9(int A[],int length)
         }
     }
 }
+void ejrcicio11(int arr[][], int arr2[][], int arr3[][]){
+	for (int i = 0; i < TAMa;i++){
+		for (int r = 0; r < TAMa; r++){
+			arr3[i][r] = 0;
+			for (int t =0; t < TAMb; t++){
+				arr3[i][r] += arr[r][t] * arr2[t][r];
+			}
+		}
+	}
+}
 void ejercicio12(int arr[],int t)
 {
     int temp;
