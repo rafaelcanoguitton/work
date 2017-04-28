@@ -11,6 +11,8 @@ void ejercicio7();
 void ejercicio8(int *x,int *y);
 void ejercicio9(int k[], int lenght);
 void ejercicio12(int arr[],int t);
+void ejrcicio11(int arr[][], int arr2[][], int arr3[][]);
+void ejercicio13(int arr[],int *t)
 int ejercicio14(int array[],int x,const int y);
 void ejercicio15();
 int main()
@@ -183,7 +185,8 @@ void ejercicio9(int A[],int length)
         }
     }
 }
-void ejrcicio11(int arr[][], int arr2[][], int arr3[][]){
+void ejrcicio11(int arr[][], int arr2[][], int arr3[][])
+{
 	for (int i = 0; i < TAMa;i++){
 		for (int r = 0; r < TAMa; r++){
 			arr3[i][r] = 0;
@@ -201,6 +204,16 @@ void ejercicio12(int arr[],int t)
         temp = arr[i];
         arr[i]=arr[t-i-1];
         arr[t-i-1]=temp;
+    }
+}
+void ejercicio13(int arr[],int *t)
+{
+    int temp;
+    for(int i=0; i<(*t/2);i++)
+    {
+        temp = arr[i];
+        arr[i]=arr[*t-i-1];
+        arr[*t-i-1]=temp;
     }
 }
 int ejercicio14(int array[],int x,int y)
