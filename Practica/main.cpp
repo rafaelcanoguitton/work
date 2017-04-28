@@ -92,28 +92,40 @@ void ejercicio5()
     {
     cout<<"Ingrese un numero"<<endl;
     cin>>x;
-    if(x==0)
+    switch(x){
+        case 0:
         cout<<"Cero"<<endl;
-    else if(x==1)
+        break;
+        case 1:
         cout<<"Uno"<<endl;
-    else if(x==2)
+        break;
+        case 2:
         cout<<"Dos"<<endl;
-    else if(x==3)
+        break;
+        case 3:
         cout<<"Tres"<<endl;
-    else if(x==4)
+        break;
+        case 4:
         cout<<"Cuatro"<<endl;
-    else if(x==5)
+        break;
+        case 5:break;
         cout<<"Cinco"<<endl;
-    else if(x==6)
+        break;
+        case 6:
         cout<<"Seis"<<endl;
-    else if(x==7)
+        break;
+        case 7:
         cout<<"Siete"<<endl;
-    else if(x==8)
+        break;
+        case 8:
         cout<<"Ocho"<<endl;
-    else if(x==9)
+        break;
+        case 9:
         cout<<"Nueve"<<endl;
-    else
+        break;
+        default:
         cout<<"Numero no permitido"<<endl;
+    }
     }
 }
 void ejercicio6()
