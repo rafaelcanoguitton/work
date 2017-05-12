@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1494605713 source:c:\users\alumno-g\work\classes\main.cpp
+	<iostream>
+	<math.h>
+	"vector.h"
+
+1494605713 c:\users\alumno-g\work\classes\include\vector.h
+	"point.h"
+	<math.h>
+
+1494603910 c:\users\alumno-g\work\classes\include\point.h
+
+1494604234 source:c:\users\alumno-g\work\classes\src\point.cpp
+	"point.h"
+	<iostream>
+
+1494605713 source:c:\users\alumno-g\work\classes\src\vector.cpp
+	"vector.h"
+	<iostream>
+	<math.h>
+
