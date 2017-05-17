@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1494946301 source:c:\users\alumno-a\work\números complejos pe\main.cpp
+	<iostream>
+	"complex.h"
+
+1494947937 source:c:\users\alumno-a\work\números complejos pe\src\complex.cpp
+	"complex.h"
+	<iostream>
+
+1494947937 c:\users\alumno-a\work\números complejos pe\include\complex.h
+
