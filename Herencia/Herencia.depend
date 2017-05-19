@@ -25,3 +25,28 @@
 	<iostream>
 	"Vehiculo.h"
 
+1495210093 source:d:\work\herencia\main.cpp
+	<iostream>
+	"Car.h"
+	"Truck.h"
+
+1495210093 d:\work\herencia\include\car.h
+	<iostream>
+	"Vehiculo.h"
+
+1495210093 d:\work\herencia\include\vehiculo.h
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
+1495210093 d:\work\herencia\include\truck.h
+	<iostream>
+	"Vehiculo.h"
+
+1495210448 source:d:\work\herencia\src\bici.cpp
+	"bici.h"
+
+1495210647 d:\work\herencia\include\bici.h
+	<iostream>
+	"Vehiculo.h"
+
