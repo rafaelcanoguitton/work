@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1495208912 source:c:\users\alumno-g\work\herencia\main.cpp
+	<iostream>
+	"Car.h"
+
+1495207182 source:c:\users\alumno-g\work\herencia\src\car.cpp
+	"Car.h"
+
+1495208903 c:\users\alumno-g\work\herencia\include\car.h
+	<iostream>
+	"Vehiculo.h"
+
+1495208879 c:\users\alumno-g\work\herencia\include\vehiculo.h
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
+1495207182 source:c:\users\alumno-g\work\herencia\src\vehiculo.cpp
+	"Vehiculo.h"
+
+1495209286 source:c:\users\alumno-g\work\herencia\src\truck.cpp
+	"Truck.h"
+
+1495209176 c:\users\alumno-g\work\herencia\include\truck.h
+	<iostream>
+	"Vehiculo.h"
+
