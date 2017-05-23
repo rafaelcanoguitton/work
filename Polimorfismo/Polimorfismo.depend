@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1495553590 source:c:\users\alumno-a\work\polimorfismo\main.cpp
+	<iostream>
+	<Persona.h>
+	<Varon.h>
+	<Mujer.h>
+
+1495551352 source:c:\users\alumno-a\work\polimorfismo\src\persona.cpp
+	"Persona.h"
+	<iostream>
+
+1495551342 c:\users\alumno-a\work\polimorfismo\include\persona.h
+	<iostream>
+
+1495552834 source:c:\users\alumno-a\work\polimorfismo\src\varon.cpp
+	"Varon.h"
+	<iostream>
+	"Persona.h"
+
+1495552268 c:\users\alumno-a\work\polimorfismo\include\varon.h
+	<iostream>
+	"Persona.h"
+
+1495553472 source:c:\users\alumno-a\work\polimorfismo\src\mujer.cpp
+	"Mujer.h"
+	<iostream>
+	"Persona.h"
+
+1495553450 c:\users\alumno-a\work\polimorfismo\include\mujer.h
+	<iostream>
+	"Persona.h"
+
