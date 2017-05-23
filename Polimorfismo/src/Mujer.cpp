@@ -12,5 +12,5 @@ void Mujer::getdesc()
 {
     cout<<"Nombre: "<<nombre<<endl;
     cout<<"Edad: "<<edad<<endl;
-    cout<<"Puntaje: "<<puntaje<<endl;
+    cout<<"Puntaje: "<<puntaje<<"/10"<<endl;
 }

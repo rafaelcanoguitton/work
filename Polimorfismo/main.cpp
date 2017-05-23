@@ -8,6 +8,8 @@ int main()
 {
     Varon x("Julio",36,true);
     Mujer y("Maria",20,10);
-    y.getdesc();
+    Persona *p;
+    p=&y;
+    p->getdesc();
     return 0;
 }
