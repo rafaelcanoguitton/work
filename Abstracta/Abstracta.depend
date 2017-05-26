@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1495815273 source:c:\users\alumno-g\work\abstracta\main.cpp
+	<iostream>
+	<Birthday.h>
+	<Persona.h>
+
+1495814196 c:\users\alumno-g\work\abstracta\include\birthday.h
+
+1495814196 source:c:\users\alumno-g\work\abstracta\src\birthday.cpp
+	"Birthday.h"
+	<iostream>
+
+1495815268 source:c:\users\alumno-g\work\abstracta\src\persona.cpp
+	"Persona.h"
+	<Birthday.h>
+
+1495815268 c:\users\alumno-g\work\abstracta\include\persona.h
+	<iostream>
+	<Birthday.h>
+
