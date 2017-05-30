@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1496157640 source:c:\users\alumno-a\work\avionxd\main.cpp
+	<iostream>
+	<Avion.h>
+
+1496157030 source:c:\users\alumno-a\work\avionxd\src\avion.cpp
+	"Avion.h"
+	<iostream>
+
+1496157620 c:\users\alumno-a\work\avionxd\include\avion.h
+
