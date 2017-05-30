@@ -17,5 +17,5 @@ void Avion::getd()
 }
 Avion::~Avion()
 {
-    cout<<"BOSTON TENMOS UN PROBLEMA CONCHASUMARE"<<endl;
+    cout<<"Se cayo el avioncito xd"<<endl;
 }
