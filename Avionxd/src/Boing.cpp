@@ -3,13 +3,13 @@
 #include <Avion.h>
 using namespace std;
 
-Boing::Boing():Avion(peso,tamano)
+Boing::Boing()
 {
     peso=0;
     tamano=0;
     personas=0;
 }
-Boing::Boing(int p, int t, int p2):Avion(peso,tamano)
+Boing::Boing(int p, int t, int p2)
 {
     peso=p;
     tamano=t;
@@ -17,5 +17,9 @@ Boing::Boing(int p, int t, int p2):Avion(peso,tamano)
 }
 void Boing::getd()
 {
-    cout<<"El avion pesa: "<<peso<<"Kg mide: "<<tamano<<"cmxd "<<"y "<<personas<<" personas"<<endl;
+    cout<<"El avion pesa: "<<peso<<"Kg mide: "<<tamano<<"cm "<<"y "<<personas<<" personas"<<endl;
+}
+Boing::~Boing()
+{
+    cout<<"Se cayo el avioncito xd"<<endl;
 }

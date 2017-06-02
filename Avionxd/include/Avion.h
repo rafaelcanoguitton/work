@@ -7,8 +7,7 @@ class Avion
     public:
         Avion(int p,int t);
         Avion();
-        virtual void getd();
-        virtual ~Avion();
+        virtual void getd()=0;
     protected:
         int peso,tamano;
 };

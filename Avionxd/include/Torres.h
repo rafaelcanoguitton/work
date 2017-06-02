@@ -6,7 +6,11 @@ using namespace std;
 class Torres
 {
     public:
-        vector<Avion *> testav;
+        vector<Avion *> testv;
+    Torres();
+    void agregar(Avion *c);
+    void recorrer();
+    ~Torres();
 };
 
 #endif // TORRES_H

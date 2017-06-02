@@ -11,11 +11,3 @@ Avion::Avion()
     peso=0;
     tamano=0;
 }
-void Avion::getd()
-{
-    cout<<"El avion pesa: "<<peso<<"Kg mide: "<<tamano<<"cmxd"<<endl;
-}
-Avion::~Avion()
-{
-    cout<<"Se cayo el avioncito xd"<<endl;
-}

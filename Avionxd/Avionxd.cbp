@@ -36,9 +36,11 @@
 		</Compiler>
 		<Unit filename="include/Avion.h" />
 		<Unit filename="include/Boing.h" />
+		<Unit filename="include/Torres.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Avion.cpp" />
 		<Unit filename="src/Boing.cpp" />
+		<Unit filename="src/Torres.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
