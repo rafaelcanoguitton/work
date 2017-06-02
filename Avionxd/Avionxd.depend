@@ -9,3 +9,21 @@
 
 1496158061 c:\users\alumno-a\work\avionxd\include\avion.h
 
+1496416453 source:c:\users\alumno-g\work\avionxd\main.cpp
+	<iostream>
+	<Avion.h>
+
+1496416453 c:\users\alumno-g\work\avionxd\include\avion.h
+
+1496416453 source:c:\users\alumno-g\work\avionxd\src\avion.cpp
+	"Avion.h"
+	<iostream>
+
+1496416453 source:c:\users\alumno-g\work\avionxd\src\boing.cpp
+	"Boing.h"
+	<iostream>
+	<Avion.h>
+
+1496416453 c:\users\alumno-g\work\avionxd\include\boing.h
+	<Avion.h>
+
