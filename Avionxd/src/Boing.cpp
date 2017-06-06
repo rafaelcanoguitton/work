@@ -23,3 +23,7 @@ Boing::~Boing()
 {
     cout<<"Se cayo el avioncito xd"<<endl;
 }
+int Boing::gett()
+{
+    return tamano;
+}

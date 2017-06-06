@@ -7,21 +7,11 @@ using namespace std;
 
 int main()
 {
-
-    Boing q,w,e,r,t,y,u,i,o,p;
-    Torres xd;
-    xd.agregar(q);
-    xd.agregar(w);
-    xd.agregar(e);
-    xd.agregar(r);
-    xd.agregar(t);
-    xd.agregar(y);
-    xd.agregar(u);
-    xd.agregar(i);
-    xd.agregar(o);
-    xd.agregar(arr);
-    xd.agregar(arr);
-
+    Torres xd(500);
+    Boing q(100,100,100),w(100,100,100),e(100,100,100);
+    xd.agregar(&q);
+    xd.agregar(&w);
+    xd.agregar(&e);
     xd.recorrer();
     return 0;
 }

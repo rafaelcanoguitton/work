@@ -9,6 +9,7 @@ class Boing:public Avion
         Boing(int p, int t,int p2);
         virtual ~Boing();
         void getd();
+        int gett();
     protected:
         int personas;
 };

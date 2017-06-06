@@ -39,3 +39,33 @@
 	<vector>
 	<Avion.h>
 
+1496622366 source:d:\work\avionxd\main.cpp
+	<iostream>
+	<Avion.h>
+	<Boing.h>
+	<Torres.h>
+	<vector>
+
+1496621309 d:\work\avionxd\include\avion.h
+
+1496621412 d:\work\avionxd\include\boing.h
+	<Avion.h>
+
+1496622360 d:\work\avionxd\include\torres.h
+	<vector>
+	<Avion.h>
+
+1496621470 source:d:\work\avionxd\src\avion.cpp
+	"Avion.h"
+	<iostream>
+
+1496621475 source:d:\work\avionxd\src\boing.cpp
+	"Boing.h"
+	<iostream>
+	<Avion.h>
+
+1496622254 source:d:\work\avionxd\src\torres.cpp
+	"Torres.h"
+	<iostream>
+	<Avion.h>
+

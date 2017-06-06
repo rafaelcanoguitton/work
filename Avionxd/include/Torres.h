@@ -7,7 +7,8 @@ class Torres
 {
     public:
         vector<Avion *> testv;
-    Torres();
+        int space;
+    Torres(int c);
     void agregar(Avion *c);
     void recorrer();
     ~Torres();

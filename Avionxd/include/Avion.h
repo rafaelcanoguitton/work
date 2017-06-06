@@ -8,6 +8,7 @@ class Avion
         Avion(int p,int t);
         Avion();
         virtual void getd()=0;
+        virtual int gett();
     protected:
         int peso,tamano;
 };

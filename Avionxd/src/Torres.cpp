@@ -2,12 +2,15 @@
 #include <iostream>
 #include <Avion.h>
 using namespace std;
-Torres::Torres()
+Torres::Torres(int c)
 {
+    space=c;
 }
 void Torres::agregar(Avion *c)
 {
     testv.push_back(c);
+    space-=c->gett();
+
 }
 Torres::~Torres()
 {
@@ -20,4 +23,5 @@ void Torres::recorrer()
 		l=testv.at(i);
 		cout<<"Avion "<<i+1<<":"<<endl;
 		l->getd();}
+    cout<<space<<endl;
 }

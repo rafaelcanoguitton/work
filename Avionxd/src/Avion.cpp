@@ -11,3 +11,7 @@ Avion::Avion()
     peso=0;
     tamano=0;
 }
+int Avion::gett()
+{
+    return tamano;
+}
