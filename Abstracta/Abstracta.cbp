@@ -36,10 +36,12 @@
 		</Compiler>
 		<Unit filename="include/Birthday.h" />
 		<Unit filename="include/Gerente.h" />
+		<Unit filename="include/Janitor.h" />
 		<Unit filename="include/Persona.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Birthday.cpp" />
 		<Unit filename="src/Gerente.cpp" />
+		<Unit filename="src/Janitor.cpp" />
 		<Unit filename="src/Persona.cpp" />
 		<Extensions>
 			<code_completion />

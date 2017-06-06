@@ -1,24 +1,23 @@
-#include "Gerente.h"
-#include "Persona.h"
-#include "Birthday.h"
-Gerente::Gerente(string n,int y,int m,int d,int i)
+#include "Janitor.h"
+
+Janitor::Janitor(string n,int y,int m,int d,int c)
 {
     nombre=n;
     b.year=y;
     b.month=m;
     b.day=d;
     edad=b.gety();
-    ingresos=i;
+    c=cl;
 }
-void Gerente::getdesc()
+void Janitor::getdesc()
 {
     cout<<"Nombre: "<<nombre<<endl;
     cout<<"Edad: "<<edad<<endl;
     cout<<"Fecha de nacimiento: ";
     b.getb();
-    cout<<"Ingresos: $"<<ingresos<<endl;
+    cout<<"Cometido: "<<cl<<endl;
 }
-Gerente::~Gerente()
+Janitor::~Janitor()
 {
     cout<<""<<endl;
 }

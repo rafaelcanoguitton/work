@@ -7,8 +7,8 @@ using namespace std;
 class Persona
 {
     public:
-        Persona(string n,int y,int m,int d);
-        virtual void getdesc()=0;
+        Persona();
+        virtual void getdesc();
         virtual ~Persona();
     protected:
         Birthday b;
