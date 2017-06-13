@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1497328345 source:d:\work\widget_gadget_gizmo\src\widget.cpp
+	"Widget.h"
+
+1497328345 d:\work\widget_gadget_gizmo\include\widget.h
+
+1497328489 source:d:\work\widget_gadget_gizmo\src\gadget.cpp
+	"Gadget.h"
+
+1497328489 d:\work\widget_gadget_gizmo\include\gadget.h
+	<Widget.h>
+
