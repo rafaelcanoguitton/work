@@ -5,6 +5,7 @@ class Point
     int x, y;
     public :
         Point();
+        Point(int a, int b);
         int getX ();
         int getY ();
         void setX (const int xx);

@@ -36,9 +36,15 @@
 		</Compiler>
 		<Unit filename="include/Point.h" />
 		<Unit filename="include/PointArray.h" />
+		<Unit filename="include/Polygon.h" />
+		<Unit filename="include/Rectangle.h" />
+		<Unit filename="include/Triangle.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Point.cpp" />
 		<Unit filename="src/PointArray.cpp" />
+		<Unit filename="src/Polygon.cpp" />
+		<Unit filename="src/Rectangle.cpp" />
+		<Unit filename="src/Triangle.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
