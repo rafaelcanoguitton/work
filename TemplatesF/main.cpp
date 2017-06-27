@@ -21,26 +21,26 @@ Stack<T> operator-(const Stack<T> &s1, const Stack<T> &s2)
     for(int i=0; i<s1.items.size();++i){
         for (int j=0;j<s2.items.size();j++){
             if (s1.items[i]==s2.items[j])
-                cout<<"rofl"<<endl;
-                //s1.erase(i);
+                ;
+            else
+                result.push(s1.items[i]);
         }
     }
     return result;
 };
-template <class T>
-Stack<T> operator<<(const Stack<T> &s1,const Stack<T> &s2)
+template <class Stack>
+ostream &operator<<(ostream &o,const Stack&c1)
 {
-    for (int i=0; i<s1.items.size();i++)
-    {
-        cout<<s1.items[i]<<endl;
-    }
+    for(unsigned i=0; i<c1.items.size();++i)
+        o<<c1.items[i];
+    return o;
 };
 template <class T>
 class Stack{
 
     friend Stack<T> operator +<>(const Stack<T> &s1, const Stack<T> &s2);
     friend Stack<T> operator -<>(const Stack<T> &s1, const Stack<T> &s2);
-    friend Stack<T> operator <<<>(const Stack<T> &s1, const Stack<T> &s2);
+    friend ostream operator <<(const Stack<T> &s1, const Stack<T> &s2);
     vector <T> items;
 public:
     bool empty() const {return items.empty();}
@@ -51,11 +51,6 @@ public:
         items.pop_back();
         return last;
     }
-    /*void Mostrar(){
-        for(int i = 0; i<items.size(); i++){
-            cout<<items[i]<<endl;
-        }
-    }*/
 };
 int main()
 {
